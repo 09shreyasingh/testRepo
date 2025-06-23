@@ -1,0 +1,31 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "Container",
+      "style": "emphasis",
+      "bleed": true,
+      "items": [
+        {
+          "type": "Image",
+          "url": "https://example.com/banner.png",
+          "size": "Stretch",
+          "altText": "Banner Image"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Welcome to Viva",
+      "weight": "Bolder",
+      "size": "Large",
+      "wrap": true,
+      "horizontalAlignment": "Center"
+    }
+  ],
+  "msTeams": {
+    "width": "Full"
+  }
+}
